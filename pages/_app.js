@@ -1,7 +1,17 @@
-import '../styles/globals.css'
+import React from 'react'
+import App, { Container } from 'next/app'
+import '../css/tailwind.css' // tailwindcss
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+//fontawesome
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css' // import the css
+config.autoAddCss = false // skip adding the css automatically
+
+class TeamBarssity extends App {
+  render() {
+    const { Component, pageProps } = this.props
+    return <Component {...pageProps} />
+  }
 }
 
-export default MyApp
+export default TeamBarssity
