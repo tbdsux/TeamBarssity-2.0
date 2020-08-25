@@ -1,8 +1,13 @@
+const whitelister = require('purgecss-whitelister')
+const { resolve } = require('path')
+
 const purgecss = [
   "@fullhuman/postcss-purgecss",
   {
     content: ["./components/*.js", "./pages/*.js"],
-    whitelist: ['html', 'body'],
+    whitelist: whitelister(
+      "node_modules/@fortawesome/fontawesome-svg-core/styles.css"
+  ),
     defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
   }
 ];
