@@ -4,7 +4,6 @@ import { faUsers, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookSquare, faDiscord, faFacebookMessenger } from '@fortawesome/free-brands-svg-icons'
 import Layout, { siteName } from '../components/Layout'
 import Gallery from '../components/Gallery'
-import '../assets/styles/main.css';
 
 const today = new Date()
 

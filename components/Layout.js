@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import '../assets/styles/main.css';
 
 export const siteName = 'Team Barssity'
 
