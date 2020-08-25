@@ -17,7 +17,7 @@ export default function Home() {
                 <meta name="og:title" property="og:title" content="Welcome | Team Barssity" />
                 <meta name="og:description" property="og:description" content="This is the official website of Team Barssity. A group built from friendship consisting of members of the same school and from the Philippines. We are from Informatics Institute Baguio consisting of Gamers, Athletes and Intellegent members." />
                 <meta property="og:site_name" content="Team Barssity" />
-                <meta property="og:url" content="https://www.team-barssity.cf" />
+                <meta property="og:url" content="team-barssity.cf" />
                 {/* Global site tag (gtag.js) - Google Analytics */}
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126683170-2"></script>
                 <script 
@@ -57,8 +57,8 @@ export default function Home() {
                             <p className="text-xl lg:text-2xl font-light tracking-wide">We are<br /><span className="font-bold underline text-3xl md:text-4xl font-cursive tracking-wide">Team Barssity</span></p>
                         </div>
                         <div className="mt-4 text-gray-300">
-                            <a type="button" className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green"><FontAwesomeIcon icon={faInfoCircle} /> Who we Are</a>
-                            <a type="button" className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green bg-persian-green"><FontAwesomeIcon icon={faUsers} /> Our Members</a>
+                            <a href="#who-we-are" type="button" className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green"><FontAwesomeIcon icon={faInfoCircle} /> Who we Are</a>
+                            <a href="#our-members" type="button" className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green bg-persian-green"><FontAwesomeIcon icon={faUsers} /> Our Members</a>
                         </div>
                         <div className="mt-4">
                             <Gallery />
