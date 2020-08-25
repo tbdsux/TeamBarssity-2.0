@@ -18,6 +18,19 @@ export default function Home() {
                 <meta name="og:description" property="og:description" content="This is the official website of Team Barssity. A group built from friendship consisting of members of the same school and from the Philippines. We are from Informatics Institute Baguio consisting of Gamers, Athletes and Intellegent members." />
                 <meta property="og:site_name" content="Team Barssity" />
                 <meta property="og:url" content="https://www.team-barssity.cf" />
+                {/* Global site tag (gtag.js) - Google Analytics */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126683170-2"></script>
+                <script 
+                    dangerouslySetInnerHTML={{
+                        __html:`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        
+                        gtag('config', 'UA-126683170-2');
+                        `,
+                    }} 
+                />
             </Head>
 
             {/* Main Showcase Section */}
