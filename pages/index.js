@@ -1,4 +1,4 @@
-import Head from 'next/Head'
+import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faUsers, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookSquare, faDiscord, faFacebookMessenger } from '@fortawesome/free-brands-svg-icons'

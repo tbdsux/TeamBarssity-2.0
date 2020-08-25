@@ -1,4 +1,4 @@
-import Head from 'next/Head'
+import Head from 'next/head'
 export const siteName = 'Team Barssity'
 
 function Layout({ children }) {
