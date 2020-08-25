@@ -1,7 +1,6 @@
+/* purgecss start ignore */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 .main-showcase {
     background: url(/banner.JPG) rgba(0, 0, 0, 0.8);
     background-blend-mode: multiply;
@@ -17,3 +16,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* purgecss end ignore */
+
+@import "tailwindcss/utilities";
+
