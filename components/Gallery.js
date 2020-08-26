@@ -10,7 +10,7 @@ function Gallery() {
 
     return (
         <>
-            <button onClick={() => setToggler(!toggler)} className="bg-white text-gray-800 py-4 px-8 rounded uppercase font-bold tracking-wide" >
+            <button onClick={() => setToggler(!toggler)} className="hover:bg-white bg-gray-200 text-gray-800 py-4 px-8 rounded uppercase font-bold tracking-wide" >
             <FontAwesomeIcon icon={faImages} />
             <span className="ml-1">Gallery</span>
             </button>

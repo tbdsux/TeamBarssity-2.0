@@ -57,8 +57,8 @@ export default function Home() {
                             <p className="text-xl lg:text-2xl font-light tracking-wide">We are<br /><span className="font-bold underline text-3xl md:text-4xl font-cursive tracking-wide">Team Barssity</span></p>
                         </div>
                         <div className="mt-4 text-gray-300">
-                            <a href="#who-we-are" type="button" className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green"><FontAwesomeIcon icon={faInfoCircle} /> Who we Are</a>
-                            <a href="#our-members" type="button" className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green bg-persian-green"><FontAwesomeIcon icon={faUsers} /> Our Members</a>
+                            <a href="#who-we-are" type="button" className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green hover:bg-persian-green"><FontAwesomeIcon icon={faInfoCircle} /> Who we Are</a>
+                            <a href="#our-members" type="button" className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green bg-persian-green hover:text-white"><FontAwesomeIcon icon={faUsers} /> Our Members</a>
                         </div>
                         <div className="mt-4">
                             <Gallery />
@@ -150,7 +150,7 @@ export default function Home() {
                                 <img src="/members/levi.jpg" className="h-32 w-32 xl:h-40 xl:w-40 rounded-full object-cover" />
                                 <div className="w-full pt-3 lg:pt-0 lg:pl-6 text-center lg:text-left">
                                     <h3 className="lg:text-2xl xl:text-3xl font-black tracking-wide text-persian-green">John Levi Magusib</h3>
-                                    <blockqoute className="text-xl font-light tracking-wide text-gray-700 italic">"Hey, meron si Jenner?"</blockqoute>
+                                    <blockqoute className="text-xl font-light tracking-wide text-gray-700 italic">"Jewish women are the best."</blockqoute>
                                     <div className="mt-2 text-gray-800 flex items-center justify-center lg:justify-start">
                                         <a href="https://www.facebook.com/gachijohn.muchi.9" type="button" className="text-lg flex items-center tracking-wide hover:text-persian-green"><FontAwesomeIcon icon={faFacebookSquare} size="lg" /><span className="ml-1">@gachijohn.muchi.9</span></a>
                                     </div>
