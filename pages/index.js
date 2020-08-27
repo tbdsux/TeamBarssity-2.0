@@ -288,7 +288,7 @@ export default function Home() {
                 <p className="font-light text-lg">Want to send us some message?</p>
                 <div className="w-11/12 lg:w-2/3 xl:w-1/2 mx-auto mt-4">
                     <form name="contact" action="/" method="post" data-netlify="true">
-                        <input type="hidden" name="form-name" value="Contact Form" />
+                        <input type="hidden" name="form-name" value="contact" />
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="flex flex-col mb-1">
                                 <label className="text-left tracking-wider text-gray-700 text-sm uppercase">Full Name:</label>
