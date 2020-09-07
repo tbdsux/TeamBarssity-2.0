@@ -274,7 +274,7 @@ export default function Home() {
                 <div>
                     <h1 className="text-2xl font-semibold tracking-wide text-center">Our Messaging Groups</h1>
                     <div className="mt-2 text-white text-lg font-smibold">
-                        <a href="https://discord.gg/G4hSvF" type="button" className="mx-1 py-3 px-6 bg-purple-600 hover:bg-purple-700 tracking-wide rounded-full"><FontAwesomeIcon icon={faDiscord} /><span className="ml-1">Discord</span></a>
+                        <a href="https://discord.gg/E6EK9By" type="button" className="mx-1 py-3 px-6 bg-purple-600 hover:bg-purple-700 tracking-wide rounded-full"><FontAwesomeIcon icon={faDiscord} /><span className="ml-1">Discord</span></a>
                         <a href="#" title="Not Available" type="button" className="mx-1 py-3 px-6 bg-blue-600 opacity-75 cursor-not-allowed tracking-wide rounded-full"><FontAwesomeIcon icon={faFacebookMessenger} /><span className="ml-1">Messenger</span></a>
                     </div>
                 </div>
