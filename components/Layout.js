@@ -10,9 +10,9 @@ function Layout({ children }) {
                 <link rel="icon" type="image/png" href="/logo.png" />
                 <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
             </Head>
-            <body>
+            <main>
             { children }
-            </body>
+            </main>
         </div>
     )
 }

@@ -12,7 +12,7 @@ function Gallery() {
         <>
             <button onClick={() => setToggler(!toggler)} className="hover:bg-white bg-gray-200 text-gray-800 py-4 px-8 rounded uppercase font-bold tracking-wide" >
             <FontAwesomeIcon icon={faImages} />
-            <span className="ml-1">Gallery</span>
+            <span className="ml-1" title="See pictures slideshow">Gallery</span>
             </button>
             <FsLightbox
                 toggler={toggler}
@@ -20,9 +20,17 @@ function Gallery() {
                     '/gallery/pic1.jpg',
                     '/gallery/pic2.jpg',
                     '/gallery/pic3.jpg',
-                    '/gallery/pic4.jpg',
+                    '/gallery/pic4.JPG',
                     '/gallery/pic5.jpg',
-                    '/gallery/pic6.jpg',
+                    '/gallery/pic6.JPG',
+                    '/gallery/pic7.JPG',
+                    '/gallery/pic8.JPG',
+                    '/gallery/pic9.jpg',
+                    '/gallery/pic10.jpg',
+                    '/gallery/pic11.JPG',
+                    '/gallery/pic12.JPG',
+                    '/gallery/pic13.JPG',
+                    '/gallery/pic14.JPG',
                 ]}
             />
         </>

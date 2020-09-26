@@ -153,6 +153,7 @@ module.exports = {
       '16': '4rem',
       '20': '5rem',
       '24': '6rem',
+      '28': '7rem',
       '32': '8rem',
       '40': '10rem',
       '48': '12rem',
@@ -290,6 +291,11 @@ module.exports = {
     inset: {
       '0': '0',
       auto: 'auto',
+      '-1': '-2em',
+      '-2': '-3em',
+      '5': '5%',
+      '10': '10%',
+      '20': '20%',
     },
     letterSpacing: {
       tighter: '-0.05em',
