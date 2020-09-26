@@ -13,7 +13,7 @@ export default function Home() {
         <Layout>
             <Head>
                 <title>Welcome | {siteName}</title>
-                <meta name="keywords" content="team barssity, teambarssity, barssityteam, teambarssity baguio">
+                <meta name="keywords" content="team barssity, teambarssity, barssityteam, teambarssity baguio" />
                 <meta name="description" content="This is the official website of Team Barssity. A group built from friendship consisting of members of the same school and from the Philippines. We are from Informatics Institute Baguio consisting of Gamers, Athletes and Intellegent members." />
                 <meta property="og:type" content="website" />
                 <meta name="og:title" property="og:title" content="Welcome | Team Barssity" />
