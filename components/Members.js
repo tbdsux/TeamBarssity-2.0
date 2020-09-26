@@ -14,9 +14,9 @@ export default function Members() {
 
     return (
     <>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div id="members" className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {members.map((member) => (
-            <Link key={member.id} href={`/?member=${member.nickname}`} as={`/members/${member.nickname}`}>
+            <Link key={member.id} scroll={false} href={`/?member=${member.nickname}`} as={`/members/${member.nickname}`}>
                 <a type="button" className="transform transition-all duration-500 hover:scale-110 h-64 flex items-center justify-center bg-gray-100 rounded-md">
                     <div className="flex flex-col lg:flex-row items-center justify-between">
                         <img src={`/members/${member.image}`} className="h-28 w-28 xl:h-40 xl:w-40 rounded-full object-cover" />
@@ -35,8 +35,8 @@ export default function Members() {
 
     <Modal
      isOpen={!!router.query.member}
-     className="overflow-auto rounded-lg outline-none absolute transition-all duration-500"
-     overlayClassName="bg-bland fixed inset-0 h-screen"
+     className="overflow-auto rounded-lg outline-none relative"
+     overlayClassName="bg-bl fixed inset-0 h-screen"
      >
         <div className="rounded-md flex flex-col items-center justify-center h-screen" onClick={(e) => handleClick(e) ? router.push("/") : ""}>
         <Page member={checkMember()} />

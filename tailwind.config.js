@@ -16,6 +16,7 @@ module.exports = {
       current: 'currentColor',
 
       bland: 'rgba(0, 0, 0, 0.6)',
+      bl: 'rgba(0, 0, 0, 0.9)',
 
       black: '#000',
       white: '#fff',
