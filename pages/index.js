@@ -113,16 +113,16 @@ export default function Home() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="flex flex-col mb-1">
                                 <label className="text-left tracking-wider text-gray-700 text-sm uppercase">Full Name:</label>
-                                <input className="py-2 px-3 font-light tracking-wide bg-gray-200 border-2 rounded focus:outline-none focus:border-persian-green" type="text" placeholder="Enter your fullname" name="Full Name" />
+                                <input required className="py-2 px-3 font-light tracking-wide bg-gray-200 border-2 rounded focus:outline-none focus:border-persian-green" type="text" placeholder="Enter your fullname" name="Full Name" />
                             </div>
                             <div className="flex flex-col mb-1">
                                 <label className="text-left tracking-wider text-gray-700 text-sm uppercase">Email Address:</label>
-                                <input className="py-2 px-3 font-light tracking-wide bg-gray-200 border-2 rounded focus:outline-none focus:border-persian-green" type="email" placeholder="Enter your email address" name="Email Address" />
+                                <input required className="py-2 px-3 font-light tracking-wide bg-gray-200 border-2 rounded focus:outline-none focus:border-persian-green" type="email" placeholder="Enter your email address" name="Email Address" />
                             </div>
                         </div>
                         <div className="flex flex-col mt-1">
                             <label className="text-left tracking-wider text-gray-700 text-sm uppercase">Message:</label>
-                            <textarea className="py-2 px-3 h-32 font-light tracking-wide bg-gray-200 border-2 rounded focus:outline-none focus:border-persian-green" placeholder="Enter your message" name="Message"></textarea>
+                            <textarea required className="py-2 px-3 h-32 font-light tracking-wide bg-gray-200 border-2 rounded focus:outline-none focus:border-persian-green" placeholder="Enter your message" name="Message"></textarea>
                         </div>
                         <button type="submit" className="py-2 px-8 bg-persian-green text-gray-100 mt-2">Send Message</button>
                     </form>
