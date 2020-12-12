@@ -1,8 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUsers, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
-import dynamic from 'next/dynamic'
-const Navbar = dynamic(() => import('../components/NavBar'), { ssr: false })
+import Navbar from '../components/NavBar'
 
 export default function Header() {
   const [mobile, setMobile] = React.useState(false)
