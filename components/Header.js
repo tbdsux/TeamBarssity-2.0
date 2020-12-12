@@ -9,7 +9,7 @@ export default function Header() {
 
   React.useEffect(() => {
     function handleResize() {
-      if (window.outerHeight <= 450) {
+      if (window.outerHeight >= 450) {
         setMobile(false)
       } else {
         setMobile(true)
@@ -29,8 +29,8 @@ export default function Header() {
         <div
           className={
             mobile
-              ? 'w-11/12 mx-auto flex items-center justify-center h-full py-32 md:h-screen'
-              : 'w-11/12 mx-auto flex items-center justify-center h-full py-32'
+              ? 'w-11/12 mx-auto flex items-center justify-center h-full py-32'
+              : 'w-11/12 mx-auto flex items-center justify-center h-full py-32 md:h-screen'
           }
         >
           <div className="text-center">
