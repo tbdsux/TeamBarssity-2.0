@@ -39,6 +39,7 @@ export default function Gallery() {
         <div className="flex items-stretch justify-start xl:grid-cols-5 h-full overflow-x-scroll">
           {images_list.map((image) => (
             <img
+              key={image}
               src={`/gallery/${image}`}
               alt=""
               className="w-1/2 md:w-1/3 xl:w-1/4 h-32 sm:h-40 lg:h-56 object-cover object-top"

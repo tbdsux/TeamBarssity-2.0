@@ -1,6 +1,6 @@
+import React from 'react'
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUsers, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import {
   faDiscord,
   faFacebookMessenger,
@@ -8,6 +8,7 @@ import {
 import Layout, { siteName } from '../components/Layout'
 import Gallery from '../components/Gallery'
 import Members from '../components/Members'
+import Header from '../components/Header'
 
 const today = new Date()
 
@@ -55,83 +56,7 @@ export default function Home() {
         />
       </Head>
 
-      {/* Main Showcase Section */}
-      <div className="main-showcase">
-        <div className="bg-bland fixed w-full z-50">
-          <nav className="w-11/12 mx-auto py-2 flex flex-col md:flex-row items-center justify-between">
-            <div className="w-full md:w-auto flex items-center justify-center">
-              <div className="flex items-center">
-                <img src="/logo.png" className="h-10 w-10 object-cover" />{' '}
-                <h1 className="font-cursive ml-1 text-white tracking-wide text-xl font">
-                  Team Barssity
-                </h1>
-              </div>
-            </div>
-            <ul className="flex mt-2 md:mt-0 text-center">
-              <li className="px-4">
-                <a
-                  href="#who-we-are"
-                  className="font-light text-gray-100 tracking-widest text-sm uppercase hover:text-persian-green"
-                >
-                  About Us
-                </a>
-              </li>
-              <li className="px-4">
-                <a
-                  href="#our-members"
-                  className="font-light text-gray-100 tracking-widest text-sm uppercase hover:text-persian-green"
-                >
-                  Our Members
-                </a>
-              </li>
-              <li className="px-4">
-                <a
-                  href="#contact-us"
-                  className="font-light text-gray-100 tracking-widest text-sm uppercase hover:text-persian-green"
-                >
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div className="w-11/12 mx-auto flex items-center justify-center h-full py-32 md:h-screen">
-          <div className="text-center">
-            <h1 className="font-black text-3xl lg:text-4xl tracking-wide text-white">
-              Hi! @person
-            </h1>
-            <div className="mt-3 md:mt-6 text-white">
-              <p className="font-light tracking-wide text-xl lg:text-2xl">
-                We are a Group built from friendship. "Die with Memories, not
-                Dreams".
-              </p>
-              <p className="text-xl lg:text-2xl font-light tracking-wide">
-                We are
-                <br />
-                <span className="font-bold underline text-3xl md:text-4xl font-cursive tracking-wide">
-                  Team Barssity
-                </span>
-              </p>
-            </div>
-            <div className="mt-4 text-gray-300">
-              <a
-                href="#who-we-are"
-                type="button"
-                className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green hover:bg-persian-green"
-              >
-                <FontAwesomeIcon icon={faInfoCircle} /> Who we Are
-              </a>
-              <a
-                href="#our-members"
-                type="button"
-                className="font-bold uppercase tracking-wide m-1 py-2 px-6 border-4 rounded-full border-persian-green bg-persian-green hover:text-white"
-              >
-                <FontAwesomeIcon icon={faUsers} /> Our Members
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Header />
 
       {/* Who We Are */}
       <div className="my-8 w-5/6 mx-auto text-center" id="who-we-are">
