@@ -1,5 +1,5 @@
 import React from 'react'
-import App, { Container } from 'next/app'
+import App from 'next/app'
 import '../css/tailwind.css' // tailwindcss
 
 //fontawesome

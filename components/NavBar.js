@@ -10,7 +10,7 @@ export default function Navbar() {
           <div className="w-auto flex items-center justify-center">
             <div className="flex items-center">
               <img src="/logo.png" className="h-10 w-10 object-cover" />{' '}
-              <h1 className="font-cursive ml-1 text-white tracking-wide text-xl font">
+              <h1 className="font-cursive ml-1 text-white tracking-wide text-xl">
                 Team Barssity
               </h1>
             </div>
@@ -37,7 +37,7 @@ export default function Navbar() {
             <li className="px-4 py-1 md:py-0">
               <a
                 href="#who-we-are"
-                className="text-gray-600 tracking-widest uppercase hover:text-persian-green"
+                className="text-white opacity-50 tracking-widest uppercase hover:opacity-100 hover:text-persian-green"
               >
                 About Us
               </a>
@@ -45,7 +45,7 @@ export default function Navbar() {
             <li className="px-4 py-1 md:py-0">
               <a
                 href="#our-members"
-                className="text-gray-600 tracking-widest uppercase hover:text-persian-green"
+                className="text-white opacity-50 tracking-widest uppercase hover:opacity-100 hover:text-persian-green"
               >
                 Our Members
               </a>
@@ -53,7 +53,7 @@ export default function Navbar() {
             <li className="px-4 py-1 md:py-0">
               <a
                 href="#contact-us"
-                className="text-gray-600 tracking-widest uppercase hover:text-persian-green"
+                className="text-white opacity-50 tracking-widest uppercase hover:opacity-100 hover:text-persian-green"
               >
                 Contact Us
               </a>

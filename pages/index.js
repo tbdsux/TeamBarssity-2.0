@@ -5,7 +5,7 @@ import {
   faDiscord,
   faFacebookMessenger,
 } from '@fortawesome/free-brands-svg-icons'
-import Layout, { siteName } from '../components/Layout'
+import Layout, { WebsiteName } from '../components/Layout'
 import Gallery from '../components/Gallery'
 import Members from '../components/Members'
 import Header from '../components/Header'
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Welcome | {siteName}</title>
+        <title>Welcome | {WebsiteName}</title>
         <meta
           name="keywords"
           content="team barssity, teambarssity, barssityteam, teambarssity baguio"
@@ -62,7 +62,7 @@ export default function Home() {
       <div className="my-8 w-5/6 mx-auto text-center" id="who-we-are">
         <div>
           <h1 className="text-3xl font-semibold tracking-wide">Who We are?</h1>
-          <p>
+          <p className="text-lg md:text-xl lg:text-2xl font-light mt-2 tracking-wide">
             As stated above, we are made and built from friendship. We are
             students of the same school, Informatics Institute Baguio. Our group
             consists of mainly male Gamers, Athletes, and Students with

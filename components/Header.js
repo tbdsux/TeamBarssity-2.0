@@ -8,7 +8,7 @@ export default function Header() {
 
   React.useEffect(() => {
     function handleResize() {
-      if (window.outerHeight >= 450) {
+      if (window.outerHeight >= 500) {
         setMobile(false)
       } else {
         setMobile(true)
@@ -33,20 +33,16 @@ export default function Header() {
           }
         >
           <div className="text-center">
-            <h1 className="font-black text-3xl lg:text-4xl tracking-wide text-white">
+            <h1 className="md:font-bold underline mb-4 text-white text-4xl md:text-5xl lg:text-6xl font-cursive tracking-wider">
+              Team Barssity
+            </h1>
+            <h1 className="font-black text-4xl lg:text-5xl tracking-wide text-white">
               Hi! @person
             </h1>
             <div className="mt-3 md:mt-6 text-white">
-              <p className="font-light tracking-wide text-2xl">
-                We are a Group built from friendship. "Die with Memories, not
-                Dreams".
-              </p>
-              <p className="text-xl lg:text-2xl font-light tracking-wide">
-                We are
-                <br />
-                <span className="font-bold underline text-3xl md:text-4xl font-cursive tracking-wide">
-                  Team Barssity
-                </span>
+              <p className="font-light tracking-wide text-3xl">
+                We are a Group built from friendship. <br />
+                "Die with Memories, not Dreams".
               </p>
             </div>
             <div className="mt-4 text-gray-300">

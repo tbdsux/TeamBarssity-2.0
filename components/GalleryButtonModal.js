@@ -9,7 +9,7 @@ function GalleryButtonModal() {
   const [toggler, setToggler] = useState(false)
 
   return (
-    <>
+    <div className="w-full">
       <button
         onClick={() => setToggler(!toggler)}
         className="hover:bg-gray-400 bg-gray-300 text-gray-800 py-2 px-8 rounded-md font-bold tracking-wide"
@@ -38,7 +38,7 @@ function GalleryButtonModal() {
           '/gallery/pic14.JPG',
         ]}
       />
-    </>
+    </div>
   )
 }
 
