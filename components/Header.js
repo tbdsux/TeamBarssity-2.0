@@ -29,7 +29,7 @@ export default function Header() {
           className={
             mobile
               ? 'w-11/12 mx-auto flex items-center justify-center h-full py-32'
-              : 'w-11/12 mx-auto flex items-center justify-center h-full py-32 md:h-screen'
+              : 'w-11/12 mx-auto flex items-center justify-center py-32 h-screen'
           }
         >
           <div className="text-center">
