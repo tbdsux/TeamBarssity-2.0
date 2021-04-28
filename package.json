@@ -24,7 +24,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "fslightbox-react": "^1.6.0"
+    "fslightbox-react": "1.6.2"
   },
   "cacheDirectories": [
     "node_modules/",
